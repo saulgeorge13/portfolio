@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Saul",
 	links: [
 		{
 			title: "About",
@@ -22,15 +22,11 @@ export const navigation = {
 			title: "Links",
 			link: "/links",
 		},
-		{
-			title: "Blog",
-			link: "https://medium.com/@hashirshoaeb",
-		}
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hi, I'm Saul!",
+	description: "Data enthusiast with a passion for using technology to solve complex problems.",
 	image: profile.src,
 	buttons: [
 		{
@@ -40,33 +36,43 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1kAZakN5bmdcoWPFV2xkWg5e4D30I1E-D/view?usp=drive_link",
 			isPrimary: false,
 		},
 	],
 }
 
 export const about = {
-	title: "Who I am",
+	title: "My 1-min pitch",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I'm an (almost) graduate from the University of British Columbia, pursuing a Bachelor of Science in Computer Science and Statistics.",
+		"My expertise includes Python, machine learning, and data analysis, and I've worked on projects ranging from backtesting and implementation of quant alpha factors to developing scalable data-driven dashboards and automated reporting processes.",
+		"As a teaching assistant at the UBC, I've helped students master the basics of artificial intelligence. While at UBC I have been recognized for my academic achievements with the Outstanding International Student Award and the Faculty of Science Dean's Honor List.",
+		"In my free time, I enjoy hiking in the mountains, and trying out new restaurants as a self-proclaimed foodie. I'm always looking for new challenges and opportunities to grow. Feel free to reach out and connect to chat about all things data, or hit me up with your suggested places to visit!"
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "My experience",
+	description: "For a more in depth breakdown of my responsibilities please refer to my resume!",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
+			title: "British Columbia Invesment Management Corporation (BCI)",
+			description: "12 months working as an intern in the Quant Equity team.",
+			icon: null,
+			// image: "config\\bci-logo.png"
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
-			icons: null,
+			title: "Canada Pension Plan (CPP)",
+			description: "4 months working as an intern analyst in Total Fund Management",
+			icon: null,
+			// image: "config\\bci-logo.png"
+		},
+		{
+			title: "University of British Columbia (UBC)",
+			description: "12 months working as a teaching assistant for CPSC 322: Intro to Artificial Intelligence",
+			icon: null,
+			// image: "config\\bci-logo.png"
 		}
 	],
 }
@@ -75,40 +81,42 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Movie Recommender",
+			description: "Recommend movies based on 3 different approaches. Implemented with Python pandas and sklearn",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/saulgeorge13/MovieRecommender",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Stock Market Analysis",
+			description: "Visualize and analyze the performance of my personal investment portfolio. Uses Jupyter notebooks, Pandas Datareader and matplotlib",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/saulgeorge13/StockMarketAnalysis",
 				},
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "Space Fighters",
+			description: "My favourite arcade game, I just got tired of having to constantly search for emulators. Implemented with Python pygame",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/saulgeorge13/SpaceFighters",
+				},
+			]
+		},
+		{
+			title: "Tic-Tac-Toe",
+			description: "TicTacToe Project as set out by Harvard CS50's Introduction to AI with Python course. Utilizes min-max algorithm",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/saulgeorge13/tictactoe",
 				},
 			]
 		},
@@ -117,53 +125,36 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Coffee Chat! Please do not hesitate to reach out to me on Linkedin or through email!",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:georgesaul58@gmail.com",
 			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "https://topmate.io/hashirshoaeb",
-			isPrimary: false,
-		},
+		}
 	]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-	image: profile.src,
+	title: "Saul George | Python | Data | Quant Research",
+	description: "UBC graduate with experience with data analysis, machine learning and quant research",
+	image: profile,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@saulgeorge13",
+	description: "Reach out to me!",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			title: "GitHub",
+			link: "https://github.com/saulgeorge13/",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/saulgeorge13/",
 		},
 	]
 }
